@@ -8,5 +8,9 @@
         public string UserId { get; set; }
 
 
+        public virtual ICollection<Topic> Topics { get; set; }
+
+        public virtual User User { get; set; }
+
     }
 }
